@@ -32,3 +32,40 @@ Fitting 28 folds for each of 384 candidates, totalling 10752 fits
    - Optimized LOOCV R²:   0.743
    - Optimized LOOCV RMSE: 39.0 MPa
 =================================================================
+
+==================================================================================================================================
+
+=================================================================
+🚀 EXTENDED TUNING SVR FOR: Rp0.2_Mpa
+🔄 Scaling Method: StandardScaler
+=================================================================
+Fitting 28 folds for each of 900 candidates, totalling 25200 fits
+
+✅ BEST PARAMETERS FOUND:
+   - C: 2000
+   - degree: 2
+   - epsilon: 10
+   - gamma: 0.001
+   - kernel: rbf
+
+🏆 OPTIMIZED RESULTS:
+   - Optimized LOOCV R²:   0.783
+   - Optimized LOOCV RMSE: 50.0 MPa
+=================================================================
+
+=================================================================
+🚀 EXTENDED TUNING Elastic Net FOR: Rm_Mpa
+🔄 Scaling Method: MinMaxScaler
+=================================================================
+Fitting 28 folds for each of 384 candidates, totalling 10752 fits
+
+✅ BEST PARAMETERS FOUND:
+   - alpha: 0.5
+   - fit_intercept: True
+   - l1_ratio: 0.3
+   - tol: 0.01
+
+🏆 OPTIMIZED RESULTS:
+   - Optimized LOOCV R²:   0.746
+   - Optimized LOOCV RMSE: 38.7 MPa
+=================================================================
