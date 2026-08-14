@@ -1,0 +1,34 @@
+=================================================================
+🚀 EXTENDED TUNING SVR FOR: Rp0.2_Mpa
+🔄 Scaling Method: MinMaxScaler
+=================================================================
+Fitting 28 folds for each of 900 candidates, totalling 25200 fits
+
+✅ BEST PARAMETERS FOUND:
+   - C: 500
+   - degree: 2
+   - epsilon: 5
+   - gamma: auto
+   - kernel: rbf
+
+🏆 OPTIMIZED RESULTS:
+   - Optimized LOOCV R²:   0.791
+   - Optimized LOOCV RMSE: 49.2 MPa
+=================================================================
+
+=================================================================
+🚀 EXTENDED TUNING Elastic Net FOR: Rm_Mpa
+🔄 Scaling Method: MinMaxScaler
+=================================================================
+Fitting 28 folds for each of 384 candidates, totalling 10752 fits
+
+✅ BEST PARAMETERS FOUND:
+   - alpha: 0.05
+   - fit_intercept: True
+   - l1_ratio: 0.5
+   - tol: 0.01
+
+🏆 OPTIMIZED RESULTS:
+   - Optimized LOOCV R²:   0.743
+   - Optimized LOOCV RMSE: 39.0 MPa
+=================================================================
